@@ -1,0 +1,33 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    font-size: 1.15rem;
+    font-weight: 500;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    transition: all 0.2s var(--animation-ease);
+    cursor: pointer;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: var(--color-accent);
+  }
+  
+  .button img {
+    width: 22px;
+    transition: 0.4s all var(--animation-ease);
+    display: block;
+    margin-top: 3px;
+  }
+  
+  .button:hover img {
+    transform: translateX(20%);
+  }
+  
